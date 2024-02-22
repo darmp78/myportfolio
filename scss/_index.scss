@@ -139,9 +139,77 @@
 }
 
 #aboutMe {
-    .container-aboutMe {
+    .container-fluid-aboutMe {
         background-color: $primaryColor;
-        border-radius: 30px;
+        border-radius: 100px;
+
+        .col-container-about {
+            margin: 0;
+
+            div {
+                .container-aboutMe-sec-about {
+                    text-align: center;
+                    color: white;
+                    padding: 3% 10%;
+
+                    .h2-title {
+                        font-size: 24px;
+                        font-weight: 800;
+                        margin: 0 0 2% 0;
+                    }
+
+                    .h3-title {
+                        font-size: 19px;
+                        font-weight: 600;
+                        margin: 0 0 2% 0;
+                    }
+
+                    .p-about-text {
+                        font-size: 18px;
+                        margin: 0 0 2% 0;
+                    }
+
+                    div {
+                        .div-alig-right {
+                            text-align: right;
+                            .hire-title-button {
+                                margin: 1% 3% 5% 0;
+                                border-color: map-get($map: $mainButtonSecundaryColor, $key: border-color);
+                                background-color: map-get($map: $mainButtonSecundaryColor, $key: background-color);
+                                border-radius: map-get($map: $mainButtonSecundaryColor, $key: border-radius);
+                                box-shadow: map-get($map: $mainButtonSecundaryColor, $key: box-shadow);
+                                width: 195px;
+
+                                &:hover {
+                                    background-color: $secundaryColorCC;
+                                    border-color: $secundaryColorCC;
+                                }
+                            }
+                        }
+                        .div-alig-left{
+                            text-align: left;
+                            .know-title-button {
+                                margin: 1% 3% 5% 0;
+                                border-color: map-get($map: $mainButtonSecundaryColor, $key: border-color);
+                                border-radius: map-get($map: $mainButtonSecundaryColor, $key: border-radius);
+                                box-shadow: map-get($map: $mainButtonSecundaryColor, $key: box-shadow);
+                                width: 195px;
+                                color: map-get($map: $secButtonSecundaryColor, $key: color);
+                                background-color: white;
+                    
+                                &:hover {
+                                    border-color: $secundaryColorCC;
+                                    color: $secundaryColorCC;
+                                    background-color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
     }
 }
 
