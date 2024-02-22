@@ -4,18 +4,18 @@
 
         .rec-dec-1 {
             position: absolute;
-            left: 26%;
+            left: 24%;
             z-index: -1;
-            top: 6%;
-            scale: 1.1;
+            top: 4%;
+            scale: 0.9;
         }
 
         .rec-dec-2 {
             position: absolute;
             left: 46%;
             z-index: -1;
-            top: 33%;
-            scale: 0.6;
+            top: 24%;
+            scale: 0.5;
         }
 
         .nav-ten-years {
@@ -24,7 +24,7 @@
 
         .ten-years-button {
             position: absolute;
-            top: 84%;
+            top: 73%;
             left: 55%;
             z-index: 1;
             color: $primaryColor;
@@ -44,7 +44,6 @@
         div {
 
             .container-main-title {
-                width: 30%;
 
                 .title-main-text-h1 {
                     color: $primaryColor;
@@ -66,7 +65,7 @@
                     padding: 1%;
                     font-size: 30px;
                     color: $primaryColor;
-                    margin-top: 65%;
+                    margin-top: 45%;
 
                     .icon-social-media {
                         margin: 0 1%;
@@ -79,17 +78,19 @@
             }
 
             .container-main-img {
-                width: 37%;
-                height: 30%;
+                //height: 30%;
 
                 .tittle-img {
-                    max-width: 110%;
-                    scale: 1.1;
+                    position: absolute;
+                    top: 10%;
+                    z-index: -1;
+                    scale: 1;
+                    left: 32%;
+
                 }
             }
 
             .container-second-text {
-                width: 33%;
                 padding: 0 0 0 2%;
 
                 .p-main-title {
@@ -141,5 +142,51 @@
     .container-aboutMe {
         background-color: $primaryColor;
         border-radius: 30px;
+    }
+}
+
+@media (max-width:1000px) {
+
+    #title {
+        .container-fluid-title {
+            .rec-dec-1 {
+                left: 1%;
+                top: 34%;
+                width: 68%;
+            }
+
+            .rec-dec-2 {
+                left: 27%;
+                top: 53%;
+                width: 90%;
+            }
+
+            .ten-years-button {
+                top: 93%;
+                left: 54%;
+            }
+
+            div {
+                .container-main-title {
+
+                    .title-main-text-h1 {
+                        margin: 7% 0 0 0;
+                    }
+
+                    .icon-row {
+                        margin-top: 5%;
+
+                    }
+                }
+
+                .container-main-img {
+                    .tittle-img {
+                        position: relative;
+                        left: 0%;
+                        width: 90%;
+                    }
+                }
+            }
+        }
     }
 }
