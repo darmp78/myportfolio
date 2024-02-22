@@ -1,0 +1,27 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "my personal web site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darmp78/myportfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "ux",
+    "ui",
+    "designer",
+    "wen",
+    "development"
+  ],
+  "author": "Darwin Moreno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darmp78/myportfolio/issues"
+  },
+  "homepage": "https://github.com/darmp78/myportfolio#readme"
+}

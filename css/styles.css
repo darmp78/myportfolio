@@ -1,0 +1,154 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
+/* Import */
+/* Variables */
+/* Navegation bar */
+nav .navbar-brand {
+  font-size: 50px;
+  font-weight: bold;
+  color: #30475E;
+}
+nav .text-secundary-color {
+  color: #F05454;
+}
+nav .navbar-nav .nav-link.active,
+nav .navbar-nav .nav-link.show {
+  border-bottom: 2px solid #F05454 !important;
+}
+nav #navbarNav {
+  padding-left: 50px;
+}
+
+/* Maps */
+#title .container-fluid-title {
+  padding: 1% 10% 1%;
+}
+#title .container-fluid-title .rec-dec-1 {
+  position: absolute;
+  left: 26%;
+  z-index: -1;
+  top: 6%;
+  scale: 1.1;
+}
+#title .container-fluid-title .rec-dec-2 {
+  position: absolute;
+  left: 46%;
+  z-index: -1;
+  top: 33%;
+  scale: 0.6;
+}
+#title .container-fluid-title .nav-ten-years {
+  line-height: 17px;
+}
+#title .container-fluid-title .ten-years-button {
+  position: absolute;
+  top: 84%;
+  left: 55%;
+  z-index: 1;
+  color: #30475E;
+  background-color: white;
+  border-color: white;
+  font-size: 17px;
+  font-weight: 600;
+}
+#title .container-fluid-title .ten-years-button .ten-years-button-in {
+  color: #F05454;
+  font-size: 13px;
+  font-weight: 400;
+}
+#title .container-fluid-title div .container-main-title {
+  width: 30%;
+}
+#title .container-fluid-title div .container-main-title .title-main-text-h1 {
+  color: #30475E;
+  font-weight: 800;
+  font-size: 50px;
+  margin: 25% 0 0 0;
+}
+#title .container-fluid-title div .container-main-title .text-secundary-color {
+  color: #F05454;
+}
+#title .container-fluid-title div .container-main-title .title-main-text-h5 {
+  color: #30475E;
+  line-height: 30px;
+}
+#title .container-fluid-title div .container-main-title .icon-row {
+  padding: 1%;
+  font-size: 30px;
+  color: #30475E;
+  margin-top: 65%;
+}
+#title .container-fluid-title div .container-main-title .icon-row .icon-social-media {
+  margin: 0 1%;
+}
+#title .container-fluid-title div .container-main-title .icon-row .icon-social-media:hover {
+  color: #F05454;
+}
+#title .container-fluid-title div .container-main-img {
+  width: 37%;
+  height: 30%;
+}
+#title .container-fluid-title div .container-main-img .tittle-img {
+  max-width: 110%;
+  scale: 1.1;
+}
+#title .container-fluid-title div .container-second-text {
+  width: 33%;
+  padding: 0 0 0 2%;
+}
+#title .container-fluid-title div .container-second-text .p-main-title, #title .container-fluid-title div .container-second-text .p-main-title-p {
+  padding: 10px 0 0;
+  line-height: 30px;
+  color: #30475E;
+  margin-top: 25%;
+  font-size: 23px;
+}
+#title .container-fluid-title div .container-second-text .p-main-title .text-secundary-color, #title .container-fluid-title div .container-second-text .p-main-title-p .text-secundary-color {
+  color: #F05454;
+}
+#title .container-fluid-title div .container-second-text .p-main-title-p {
+  margin: 12% 0 0;
+}
+#title .container-fluid-title div .container-second-text .p-main-title-p .p-main-title-name {
+  font-family: "Alex Brush", cursive;
+  font-size: 35px;
+  padding: 10px 0 0;
+  color: black;
+}
+#title .container-fluid-title div .container-second-text .hire-title-button {
+  margin: 10% 3% 5% 0;
+  border-color: #F05454;
+  background-color: #F05454;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 150px;
+}
+#title .container-fluid-title div .container-second-text .hire-title-button:hover {
+  background-color: rgba(240, 84, 84, 0.8);
+  border-color: rgba(240, 84, 84, 0.8);
+}
+
+#aboutMe .container-aboutMe {
+  background-color: #30475E;
+  border-radius: 30px;
+}
+
+body {
+  background-color: #EFECEC;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Media query breakpoints */
+@media (max-width: 1000px) {
+  #title {
+    text-align: center;
+  }
+  #title .main-nav-menu {
+    text-align: right;
+  }
+  #title .nav-underline .nav-link {
+    padding-right: 10px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

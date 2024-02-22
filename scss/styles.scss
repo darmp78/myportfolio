@@ -1,0 +1,33 @@
+ /* Fonts */
+
+ @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+  /* Import */
+@import "_variables";
+@import "_navBar";
+@import "_maps";
+@import "_index";
+
+body {
+    background-color: $primaryGrayColor;
+    font-family: $mainFontFamily;
+}
+
+ /* Media query breakpoints */
+ @media (max-width:1000px) {
+    #title {
+        text-align: center;
+
+        .main-nav-menu {
+            text-align: right;
+
+        }
+
+        .nav-underline {
+            .nav-link {
+                padding-right: 10px;
+            }
+
+        }
+    }
+ }

@@ -1,0 +1,21 @@
+
+ /* Navegation bar */
+ nav {
+    .navbar-brand {
+        font-size: 50px;
+        font-weight: bold;
+        color: $primaryColor;
+    }
+
+    .text-secundary-color {
+        color: $secundaryColor;
+    }
+    .navbar-nav .nav-link.active,
+    .navbar-nav .nav-link.show {
+        border-bottom: 2px solid $secundaryColor !important;
+    }
+
+    #navbarNav {
+        padding-left: 50px;
+    }
+}
