@@ -212,8 +212,22 @@
         }
         .col-container-about-num{
             margin: 0;
-            padding: 1% 25%;
+            padding: 1% 29%;
             text-align: left;
+            color: black;
+            div{
+                div{
+                    div{
+                        .h1-secundary-color{
+                            color: $secundaryColor;
+                            text-align: end;
+                        }
+                    }
+                }
+            }
+        }
+        .col-container-about-skills{
+            
         }
 
     }

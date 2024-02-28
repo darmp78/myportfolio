@@ -183,10 +183,14 @@ nav #navbarNav {
 }
 #aboutMe .container-fluid-aboutMe .col-container-about-num {
   margin: 0;
-  padding: 1% 25%;
+  padding: 1% 29%;
   text-align: left;
+  color: black;
 }
-
+#aboutMe .container-fluid-aboutMe .col-container-about-num div div div .h1-secundary-color {
+  color: #F05454;
+  text-align: end;
+}
 @media (max-width: 1000px) {
   #title .container-fluid-title .rec-dec-1 {
     left: 1%;
